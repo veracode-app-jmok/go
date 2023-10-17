@@ -23,9 +23,9 @@ jobs:
 
     - name: Build
       run: |
-        cd sub2 && go mod init example.com/m/v2 && go mod tidy
+       go mod init example.com/m/v2 && go mod tidy
         cd .. && go build . 
-        cd sub1 && go mod init example.com/m && go mod tidy
+        go mod init example.com/m && go mod tidy
     #- name: Package Upload
      # run | 
     - name: Check Auto
