@@ -8,7 +8,7 @@ Follow the instructions under the section "Setup and Configuration" in https://w
 ## Scan this project
 There are 2 ways to scan this project.
 
-### 1. Using url option
+### 1. Using url option 
 `SRCCLR_FORCE_GO_INSTALL=true srcclr scan --url https://github.com/srcclr/example-go-goget`
 
 ### 2. On local path
